@@ -1,0 +1,154 @@
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decorate: none;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #808080;
+}
+
+li a:hover {
+  background-color: #333;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+ul {
+  list-style-type: none;
+  position: fixed;
+  top: 0;
+  width: 95%;
+}
+
+h1 {
+  color: #111;
+  margin-left: 10px;
+  font-family: Gill Sans / Gill Sans MT, sans-serif;
+  font-size: 3em;
+}
+
+h2 {
+  color: green;
+  margin-left: 10px;
+}
+
+h3 {
+  color: black;
+  text-align: center;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 30px;
+  background-color: white;
+  max-width: 30%;
+  max-height: 30%;
+}
+
+body,html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  font-size: 18px;
+  background-color: hsl(281, 61%, 85%);
+}
+
+.image {
+    height: 200px;
+    width: 200px;
+    display: table;
+    padding-left: 230px;
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+img.resize {
+  max-width:70%;
+  max-height:100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.grid {
+  align-items: stretch;
+  box-sizing: border-box;
+}
+
+p {
+  text-align: left;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right:15px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+pre {
+  text-align: center;
+}
+
+.footer {
+  background-color: #3c53ff;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+input {
+  margin-left: 15px;
+  width: 75%;
+}
+
+textarea {
+  margin-left: 15px;
+  height: 40px;
+  width: 85%;
+}
+
+button {
+  margin-left: 15px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+}
